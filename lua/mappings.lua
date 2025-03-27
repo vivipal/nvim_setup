@@ -8,6 +8,8 @@ map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jk", "<ESC>")
 
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
+<<<<<<< HEAD
+<<<<<<< HEAD
 
 
 -- diagnostic float
@@ -15,6 +17,8 @@ map("n", "<leader>de", function()
   vim.diagnostic.open_float()
 end, { desc = "Show diagnostics (float)" })
 
+=======
+>>>>>>> f49e614 (add git mappings)
 
 
 require("gitsigns").setup{
@@ -39,3 +43,8 @@ require("gitsigns").setup{
 
   end
 }
+<<<<<<< HEAD
+=======
+>>>>>>> 92d4172 (first commit)
+=======
+>>>>>>> f49e614 (add git mappings)

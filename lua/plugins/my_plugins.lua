@@ -33,6 +33,7 @@ local plugins = {
     lazy = false,
   },
 
+<<<<<<< HEAD
   {
     "rbong/vim-flog",
     lazy = true,
@@ -56,6 +57,14 @@ local plugins = {
   --   dependencies = { "MunifTanjim/nui.nvim" },
   --   
   -- },
+=======
+-- {
+--  'VonHeikemen/fine-cmdline.nvim',
+--
+--   dependencies = { "MunifTanjim/nui.nvim" },
+--   
+-- },
+>>>>>>> 92d4172 (first commit)
   --
   -- {
   --   "giusgad/pets.nvim",
