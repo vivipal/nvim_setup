@@ -33,12 +33,21 @@ local plugins = {
     lazy = false,
   },
 
--- {
---  'VonHeikemen/fine-cmdline.nvim',
---
---   dependencies = { "MunifTanjim/nui.nvim" },
---   
--- },
+  {
+    "rbong/vim-flog",
+    lazy = true,
+    cmd = { "Flog", "Flogsplit", "Floggit" },
+    dependencies = {
+      "tpope/vim-fugitive",
+    },
+  },
+
+  -- {
+  --  'VonHeikemen/fine-cmdline.nvim',
+  --
+  --   dependencies = { "MunifTanjim/nui.nvim" },
+  --   
+  -- },
   --
   -- {
   --   "giusgad/pets.nvim",
