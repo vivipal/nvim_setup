@@ -34,6 +34,9 @@ local plugins = {
   },
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a36b2d (add gitflog)
   {
     "rbong/vim-flog",
     lazy = true,
@@ -42,6 +45,7 @@ local plugins = {
       "tpope/vim-fugitive",
     },
   },
+<<<<<<< HEAD
   {
     "VPavliashvili/json-nvim",
     ft = "json", -- only load for json filetype
@@ -50,6 +54,8 @@ local plugins = {
         vim.keymap.set("n", "<leader>jmf", '<cmd>JsonMinifyFile<cr>')
     end,
   },
+=======
+>>>>>>> 2a36b2d (add gitflog)
 
   -- {
   --  'VonHeikemen/fine-cmdline.nvim',
@@ -57,6 +63,7 @@ local plugins = {
   --   dependencies = { "MunifTanjim/nui.nvim" },
   --   
   -- },
+<<<<<<< HEAD
 =======
 -- {
 --  'VonHeikemen/fine-cmdline.nvim',
@@ -65,6 +72,8 @@ local plugins = {
 --   
 -- },
 >>>>>>> 92d4172 (first commit)
+=======
+>>>>>>> 2a36b2d (add gitflog)
   --
   -- {
   --   "giusgad/pets.nvim",
