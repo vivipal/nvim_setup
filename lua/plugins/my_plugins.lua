@@ -46,6 +46,9 @@ local plugins = {
     },
   },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d51e1c2 (add json parser)
   {
     "VPavliashvili/json-nvim",
     ft = "json", -- only load for json filetype
@@ -54,8 +57,11 @@ local plugins = {
         vim.keymap.set("n", "<leader>jmf", '<cmd>JsonMinifyFile<cr>')
     end,
   },
+<<<<<<< HEAD
 =======
 >>>>>>> 2a36b2d (add gitflog)
+=======
+>>>>>>> d51e1c2 (add json parser)
 
   -- {
   --  'VonHeikemen/fine-cmdline.nvim',
