@@ -10,6 +10,13 @@ map("i", "jk", "<ESC>")
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
 
 
+-- diagnostic float
+map("n", "<leader>de", function()
+  vim.diagnostic.open_float()
+end, { desc = "Show diagnostics (float)" })
+
+
+
 require("gitsigns").setup{
 
   on_attach = function(bufnr)
