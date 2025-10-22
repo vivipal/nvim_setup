@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2886150 (new config for lsp)
 local servers = { "html", "cssls", "pylsp", "pyright", "clangd" }  
 local nvlsp = require "nvchad.configs.lspconfig"  
   
@@ -9,6 +12,7 @@ for _, lsp in ipairs(servers) do
     capabilities = nvlsp.capabilities,  
   })  
   vim.lsp.enable(lsp)  
+<<<<<<< HEAD
 end
 =======
 -- load defaults i.e lua_lsp
@@ -36,3 +40,6 @@ end
 --   capabilities = nvlsp.capabilities,
 -- }
 >>>>>>> 92d4172 (first commit)
+=======
+end
+>>>>>>> 2886150 (new config for lsp)

@@ -21,6 +21,13 @@ end, { desc = "Show diagnostics (float)" })
 >>>>>>> f49e614 (add git mappings)
 
 
+-- diagnostic float
+map("n", "<leader>de", function()
+  vim.diagnostic.open_float()
+end, { desc = "Show diagnostics (float)" })
+
+
+
 require("gitsigns").setup{
 
   on_attach = function(bufnr)
